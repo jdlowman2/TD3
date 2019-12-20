@@ -1,3 +1,8 @@
+# Lane Change Env model-free learning with TD3
+This repository is a fork of github.com/sfujim/TD3. This repository modifies the main.py script to allow loading of the driving environment defined in https://github.com/jdlowman2/collision_imminent_env and training of the TD3 algorithm on this environment.
+
+# Original README below:
+
 # Addressing Function Approximation Error in Actor-Critic Methods
 
 PyTorch implementation of Twin Delayed Deep Deterministic Policy Gradients (TD3). If you use our code or data please cite the [paper](https://arxiv.org/abs/1802.09477).
