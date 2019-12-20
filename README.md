@@ -1,6 +1,11 @@
 # Lane Change Env model-free learning with TD3
 This repository is a fork of github.com/sfujim/TD3. This repository modifies the main.py script to allow loading of the driving environment defined in https://github.com/jdlowman2/collision_imminent_env and training of the TD3 algorithm on this environment.
 
+Example execution with TD3, sparse reward, and a single obstacle (multiple obstacles are in development):
+
+`python main.py --env LaneChangeEnv-v0 --policy TD3 --exp_name td3_sparse --save_model --sparse_reward --num_obstacles 1`
+
+
 # Original README below:
 
 # Addressing Function Approximation Error in Actor-Critic Methods
